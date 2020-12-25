@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/p5.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/sketch.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexa</title>
+   
+</head>
+
+<body background = "bg.jpeg">
+    <div class="top ">
+        <h6>Setting Up Your account </h6>
+        <p id ="pip">  Get to know you</p>
+    </div>
+    
+ 
+  
+    <br>    <br> <br> <br>     
+
+
+    
+<div class ="abc" >
+    <div id="messages">
+    </div>
+</div>
+
+    
+    <div class="opt">
+    
+</div>
+
+<div class="foot">
+    <input id="ip" type="text" onfocus="this.value=''" value = "">
+    <button class = "send" onclick="send()" ><i class ="far fa-paper-plane"></i></button>
+</div>
+    
+</body>
+
+</html>
+
+
+<!--
+<style>
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+-->
+
+<script>
+    var objDiv = document.getElementById("messages");
+objDiv.scrollTop = objDiv.scrollHeight;
+</script>
+
